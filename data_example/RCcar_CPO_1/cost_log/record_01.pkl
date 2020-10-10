@@ -1,0 +1,11 @@
+(lp0
+(lp1
+I50
+aF0.0
+aa(lp2
+I48
+aF12.0
+aa(lp3
+I50
+aF0.0
+aa.

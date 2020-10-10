@@ -1,0 +1,17 @@
+(lp0
+(lp1
+I70
+aF0.0
+aa(lp2
+I51
+aF0.0
+aa(lp3
+I51
+aF0.0
+aa(lp4
+I123
+aF0.0
+aa(lp5
+I51
+aF0.0
+aa.
