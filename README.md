@@ -1,7 +1,7 @@
 # sim2real-grounding-simulator
 Sim2real algorithm that grounds simulator as real world (could be used in reinforcement learning)
 
-Contents:
+# Contents
 1) Grounded Action Transformation (GAT)
   - GAT/nets.py
   - GAT/grounding.py
