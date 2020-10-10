@@ -18,7 +18,7 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 
 # Explanation
 1) net.py
-  - network needed in GAT/SGAT
+  - network needed in GAT / SGAT
 2) grounding.py
   - training forward and backward model
 3) train_with_GAT.py , train_with_SGAT.py: 
