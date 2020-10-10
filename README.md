@@ -18,7 +18,7 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 
 # Explanation
 1) net.py
-  - network needed in SGAT
+  - network needed in GAT/SGAT
 2) grounding.py
   - training forward and backward model
 3) train_with_GAT.py , train_with_SGAT.py: 
@@ -30,16 +30,24 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 
 # Implementation
 1) grounding.py
-- python grounding.py forward    #forward model training
-- python grounding.py backward    #backward model training
+- python grounding.py forward 
+(forward model training)
+- python grounding.py backward
+(backward model training)
 2) train_with_GAT.py
-- python train_with_GAT.py    #training agent using optimization algorithm
-- python train_with_GAT.py sim_test    #testing trained agent in simulation environment
-- python train_with_GAT.py real_test    #testing trained agent in real world environment
-2) train_with_SGAT.py
-- python train_with_SGAT.py    #training agent using optimization algorithm
-- python train_with_SGAT.py sim_test    #testing trained agent in simulation environment
-- python train_with_SGAT.py real_test    #testing trained agent in real world environment
+- python train_with_GAT.py
+(training agent using optimization algorithm)
+- python train_with_GAT.py sim_test
+(testing trained agent in simulation environment)
+- python train_with_GAT.py real_test
+(testing trained agent in real world environment)
+3) train_with_SGAT.py
+- python train_with_SGAT.py
+(training agent using optimization algorithm)
+- python train_with_SGAT.py sim_test
+(testing trained agent in simulation environment)
+- python train_with_SGAT.py real_test
+(testing trained agent in real world environment)
 
 
 # Prerequisite
