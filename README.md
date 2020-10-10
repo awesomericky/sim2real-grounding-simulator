@@ -50,7 +50,7 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 (testing trained agent in real world environment)
 
 
-# Prerequisite
+# Prerequisites
 1) tensorflow 1.13.1
 2) python 2.7.12
 3) ros-kinetic
