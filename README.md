@@ -1,6 +1,7 @@
 # sim2real-grounding-simulator
 Sim2real algorithm that grounds simulator as real world (could be used in reinforcement learning)
 
+
 # Contents
 1) Grounded Action Transformation (GAT)
   - GAT/nets.py
@@ -15,7 +16,7 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
   (just check how the result file structure will look like)
 
 
-Explanation:
+# Explanation
 1) net.py
   - network needed in SGAT
 2) grounding.py
@@ -27,27 +28,27 @@ Explanation:
   (In the uploaded code, optimization algorithm is CPO)
 
 
-[Implementation]
+# Implementation
 1) grounding.py
-- python grounding.py forward  #forward model training
-- python grounding.py backward  #backward model training
+- python grounding.py forward    #forward model training
+- python grounding.py backward    #backward model training
 2) train_with_GAT.py
-- python train_with_GAT.py  #training agent using optimization algorithm
-- python train_with_GAT.py sim_test  #testing trained agent in simulation environment
-- python train_with_GAT.py real_test  #testing trained agent in real world environment
+- python train_with_GAT.py    #training agent using optimization algorithm
+- python train_with_GAT.py sim_test    #testing trained agent in simulation environment
+- python train_with_GAT.py real_test    #testing trained agent in real world environment
 2) train_with_SGAT.py
-- python train_with_SGAT.py  #training agent using optimization algorithm
-- python train_with_SGAT.py sim_test  #testing trained agent in simulation environment
-- python train_with_SGAT.py real_test  #testing trained agent in real world environment
+- python train_with_SGAT.py    #training agent using optimization algorithm
+- python train_with_SGAT.py sim_test    #testing trained agent in simulation environment
+- python train_with_SGAT.py real_test    #testing trained agent in real world environment
 
 
-[Prerequisite]
+# Prerequisite
 1) tensorflow 1.13.1
 2) python 2.7.12
 3) ros-kinetic
 
 
-Reference:
+# Reference
 1) 'Grounded Action Transformation for Robot Learning in Simulation'
 https://www.cs.utexas.edu/users/AustinVilla/papers/AAAI17-Hanna.pdf
 2) 'Stochastic Grounded Action Transformation for Robot Learning in Simulation'
