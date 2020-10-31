@@ -58,7 +58,7 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 4. Move '{Data folder} (ex) RCcar_CPO_1)' in '/GAT' or '/SGAT' directory
 5. Repeat 1~4
 
-*'0' step is needed if behvior cloning is used
+*'0' step is needed if behvior cloning is used for initialization
 
 # Prerequisites
 1) tensorflow 1.13.1
