@@ -51,12 +51,14 @@ Sim2real algorithm that grounds simulator as real world (could be used in reinfo
 
 
 # Experiment order
-0. Prepare agent model in '{Data folder}/checkpoint (ex) RCcar_CPO_1/checkpoint)' directory
+(0. Prepare agent model in '{Data folder}/checkpoint (ex) RCcar_CPO_1/checkpoint)' directory)
 1. Train forward model, inverse model in '/GAT' or '/SGAT' directory (using 'grounding.py')
 2. Move '{Data folder} (ex) RCcar_CPO_1)' in '/Optimize (ex) CPO)'
 3. Train agent in '/Optimize (ex) CPO)' directory (using 'train_with_SGAT.py)
 4. Move '{Data folder} (ex) RCcar_CPO_1)' in '/GAT' or '/SGAT' directory
 5. Repeat 1~4
+
+*'0' step is needed if behvior cloning is used
 
 # Prerequisites
 1) tensorflow 1.13.1
